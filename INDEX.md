@@ -7,23 +7,27 @@ Commit messages are short and named after the section they add,
 for example "Add project overview, problem, and user journey".
 
 Folder names match the institution template sections exactly,
-including "&" where the template uses it. Read folders in this
-numbered order — alphabetical order in GitHub will not match
-template order, because the template order is not alphabetical,
-so use this index, not folder sorting, to follow the repo.
+including "&" where the template uses it. This repo contains
+ONLY supplementary technical content that was not in the PPT.
+Things already submitted in the PPT are NOT submitted again here.
+Read folders in this numbered order — alphabetical order in GitHub
+will not match template order, because the template order is not
+alphabetical, so use this index, not folder sorting, to follow
+the repo. Sections with no supplementary content beyond the PPT
+are not repeated here.
 
 | No. | Template section | Folder in this repo | What is in it | Status |
 |---|---|---|---|---|
-| 1 | Project Overview | Project Overview/ | Project-Overview.md | Complete, design stage |
-| 2 | Problem Statement | Problem Statement/ | Problem-Statement.md | Complete, design stage |
-| 3 | Problem Context | Problem Context/ | Problem-Context.md | Complete, design stage |
-| 4 | User Journey | User Journey/ | User-Journey.md | Complete, design stage |
+| 1 | Project Overview | — | In PPT only, not repeated here | — |
+| 2 | Problem Statement | — | In PPT only, not repeated here | — |
+| 3 | Problem Context | — | In PPT only, not repeated here | — |
+| 4 | User Journey | — | In PPT only, not repeated here | — |
 | 5 | System Architecture & Specs | System Architecture & Specs/ | Overall-System-Architecture.md, Pole-Unit-Software-Design-Refined.md, Vehicle-Module-Software-Design-Refined.md | Complete, design only, not bench-tested |
 | 6 | CAD Design & Mechanical Specs | CAD Design & Mechanical Specs/ | CAD-Design-and-Mechanical-Specs.md | Pending — CAD files not yet supplied, FEA not performed |
 | 7 | Electronics Schematics & BOM | Electronics Schematics & BOM/ | Pole Unit Electronic Schematic/ (KiCad source, netlist, ERC), Vehicle Module Electronic Schematic/ (KiCad source, netlist, ERC), BOM-Note.md | Schematics complete as drafts, Rev A, ERC 0/0/0. PDFs and BOM update pending, see BOM-Note.md |
 | 8 | Maker Journey | Maker Journey/ | README.md with photo captions | Captions complete, photo files to be uploaded via GitHub web (text push cannot carry images), joint mentor photo pending |
 | 9 | Safety & Hazard Mitigation | Safety & Hazard Mitigation/ | Safety-and-Failure-Modes.md | Complete, design stage |
-| 10 | Roadmap | Roadmap/ | Roadmap.md | Complete, plan dates only |
+| 10 | Roadmap | — | In PPT only, not repeated here | — |
 | 11 | Technical Challenges & Risks | Technical Challenges & Risks/ | Technical-Challenges-and-Risks.md, Latency-and-Power-Budgets.md, Test-Protocols.md (results blank), Theoretical-Stress-Testing-16-Scenarios.md | Complete, theory and protocols only |
 | 12 | References & Sources | References & Sources/ | Research-Plan.md (52 papers, direct links) | Complete, design research only |
 | 13 | Image Sources | Image Sources/ | Image-Sources.md | Complete — AI deck images, real KiCad diagrams, real lab photos distinguished |
