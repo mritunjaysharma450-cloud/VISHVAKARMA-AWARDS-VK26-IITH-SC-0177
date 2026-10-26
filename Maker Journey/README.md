@@ -1,11 +1,11 @@
 # Team Lab Photos
 
-Status: real lab photos supplied by the team, received 2026-10-26.
-Photo capture dates are NOT in the files — EXIF is empty, file dates here
-are receipt dates, not capture dates. Do not claim a capture date for
-these photos until the team confirms when they were taken.
+Real lab photos supplied by the team, received 2026-10-26.
+Photo capture dates are not recorded in the files — EXIF is empty, and
+file dates are receipt dates, not capture dates. No capture date is
+stated for these photos in this document.
 
-## What each photo shows, honestly
+## What each photo shows
 - 01-lab-laptop-work.jpg: team member at a lab bench with a laptop, a
   wired white prototype unit on the bench behind, blue pegboard with tools.
   No ID badge clearly visible in this frame. Laptop screen content is not
@@ -32,29 +32,28 @@ these photos until the team confirms when they were taken.
   the refined vehicle schematic as drawn — no SN74HC74 latch, no CD74HC423
   deadman, no 4PDT override switch, no Pololu buck are visible, and the
   relay here is a 2-channel module, not the single G5LE-1 NC relay in the
-  refined schematic. Caption it only as "initial vehicle module, bench
-  assembly", never as the refined schematic built, a soldered final unit,
+  refined schematic. The caption for this photo is "initial vehicle module,
+  bench assembly", not the refined schematic built, a soldered final unit,
   a closed-course installed unit, or a road test. No enclosure, loose
   wires, exposed bulb and battery pack are visible.
 
-All four photos are from the same lab bench, same person, same pegboard
+Photographs 01 to 04 are from the same lab bench, same person, same pegboard
 and laptop — consistent, real phone photos, 589 x 1280, 55–68 KB each.
 They are NOT high-resolution photos, and they are NOT presented as
 CAD, EDA, FEA, or test-result evidence.
 
-## What these photos do NOT show
+## What is absent from these photos
 - No joint photo with the faculty mentor (Ashish Singh Chandel) in this set.
 - No second team member clearly identified in this set.
 - No legible institutional ID badge text in any frame.
 - No CAD UI, no KiCad/EDA UI, no FEA screen in this set.
 - No specific V-ORRA pole or vehicle unit identified by a label in the photos.
-  Do not caption these as "pole unit" or "vehicle module" close-ups — they are
-  general lab work photos.
+  These are general lab work photos, not "pole unit" or "vehicle module"
+  close-ups.
 
-## Use in the repo
-These four photos may be pushed as lab work photos, with the captions above.
-They do NOT by themselves fulfil a claim of "team working with faculty mentor"
-photos — that photo is still missing and must be supplied separately, or
-the repo must state that a mentor photo is pending.
-Confirm before public push: (1) capture dates, (2) consent to publish these
-photos publicly on GitHub, including the person's face, (3) who is in each photo.
+## Limits of this set
+These photographs, on their own, are not a record of "team working with
+faculty mentor" photos — that photo is still missing. A joint mentor photo
+is not included in this version. Capture dates, consent to publish these
+photos publicly on GitHub, including the person's face, and identification
+of the person in each photo have not been recorded in this document.
