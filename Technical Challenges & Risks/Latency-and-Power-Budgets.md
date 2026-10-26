@@ -1,7 +1,6 @@
 # Latency and Power Budgets — V-ORRA Pole and Vehicle
 
-Status: theory and evidence-based calculation, not measured results.
-Every budget below must be measured on the bench before it is claimed as a result.
+This document is a theory and evidence-based calculation, not measured results. Every budget below remains to be measured on the bench before it is presented as a result.
 
 ## 1. Latency budget — proposed allocation, 250 ms target
 
@@ -15,13 +14,7 @@ This is a design allocation, not a datasheet figure and not a measurement.
 - Contingency: 40 ms — design allowance
 - Total: 250 ms
 
-Plausibility note: this is plausible only for one already-connected vehicle,
-local MQTT, light track processing. It is not a worst-case guarantee. Radar
-frame period and tracker confirmation, UWB ranging wait, Wi-Fi retries,
-power-saving, interference, and MQTT reconnection can all push it over.
-Measurement must be from sensing event to physical demo output transition,
-not from MQTT publish alone, and must report median, 95th percentile, and
-maximum, at 5, 10, and 20 km/h.
+This allocation is plausible only for one already-connected vehicle, local MQTT, and light track processing. It is not a worst-case guarantee. Radar frame period and tracker confirmation, UWB ranging wait, Wi-Fi retries, power-saving, interference, and MQTT reconnection can all exceed it. Measurement is to be taken from sensing event to physical demo output transition, not from MQTT publish alone, and is to report median, 95th percentile, and maximum, at 5, 10, and 20 km/h.
 
 Travel in 250 ms:
 - 5 km/h: 1.39 m/s x 0.25 s = 0.35 m
@@ -32,38 +25,26 @@ Travel in 250 ms:
 
 Pole, known from official sources:
 - Pi 5 bare board, typical active: 800 mA at 5 V = about 4 W, bare board only.
-- Pi 5 USB peripheral limit: 1.6 A total with a 5 A supply, 600 mA with a 3 A supply.
-  A hub, radar, and UWB bridge sharing that limit must be checked against the
-  actual supply used, not assumed.
-- ESP32-S3 gate, chip level: about 0.29 W in Wi-Fi RX, about 1.12 W peak in Wi-Fi TX.
-  That is chip level, not full board draw.
+- Pi 5 USB peripheral limit: 1.6 A total with a 5 A supply, 600 mA with a 3 A supply. A hub, radar, and UWB bridge sharing that limit are to be checked against the actual supply used, not assumed.
+- ESP32-S3 gate, chip level: about 0.29 W in Wi-Fi RX, about 1.12 W peak in Wi-Fi TX. That is chip level, not full board draw.
 
 Pole, unknown until measured:
-- AWRL6432BOOST actual draw. TI notes USB power, and a 5 V / 2 A adapter as an
-  option for higher-power cases. A 10 W-rated supply does not mean 10 W continuous.
-- MaUWB anchor current. A 34 mA figure is reported for a tag configuration.
-  It does not validate the pole anchor current, peaks, or supply arrangement.
+- AWRL6432BOOST actual draw. TI notes USB power, and a 5 V / 2 A adapter as an option for higher-power cases. A 10 W-rated supply does not mean 10 W continuous.
+- MaUWB anchor current. A 34 mA figure is reported for a tag configuration. It does not validate the pole anchor current, peaks, or supply arrangement.
 - UGREEN hub model, idle draw, self-powered vs bus-powered.
 - Conversion and wiring losses, pole supply topology.
 
 Submitted pole figures, clarified:
-- 100 W is a power station output capability. 156 Wh is stored energy.
-  They are not the same thing, and neither is average system power.
-- Ideal arithmetic at 100 W continuous: 156 Wh / 100 W = 1.56 h.
-  That is not a predicted runtime. Actual runtime needs measured draw,
-  converter losses, allowable discharge, and the exact source specification.
+- 100 W is a power station output capability. 156 Wh is stored energy. They are not the same thing, and neither is average system power.
+- Ideal arithmetic at 100 W continuous: 156 Wh / 100 W = 1.56 h. That is not a predicted runtime. Actual runtime needs measured draw, converter losses, allowable discharge, and the exact source specification.
 
 Vehicle, known and unknown:
-- 10,000 mAh label, at an assumed nominal 3.7 V internal battery: about 37 Wh
-  nominal, before conversion losses. It is not automatically 50 Wh at 5 V output.
+- 10,000 mAh label, at an assumed nominal 3.7 V internal battery: about 37 Wh nominal, before conversion losses. It is not automatically 50 Wh at 5 V output.
 - NEO-6M continuous operation is published at 111 mW at 3.0 V, chip level.
-- ESP32-S3, UWB tag, regulators, demo lamp, and demo horn draws are unmeasured
-  in the submitted documents. Horn inrush and lamp current must be measured
-  separately, before fuse and runtime are claimed.
+- ESP32-S3, UWB tag, regulators, demo lamp, and demo horn draws are unmeasured in the submitted documents. Horn inrush and lamp current are to be measured separately, before fuse and runtime are presented.
 
 Measurement plan for power, in order:
-1. Input voltage, average current, peak current, and voltage dips per rail,
-   while sensing, transmitting, actuating, and rebooting.
+1. Input voltage, average current, peak current, and voltage dips per rail, while sensing, transmitting, actuating, and rebooting.
 2. Pi undervoltage behaviour under full USB load.
 3. Hub self-powered vs bus-powered check.
 4. Usable energy and cutoff behaviour of the pole source and vehicle bank.
@@ -73,10 +54,8 @@ Measurement plan for power, in order:
 
 1. MaUWB bridge link: AT response and range reports, Pi and ESP32, at 3.3 V.
 2. Radar TLV stream on the Pi: frame rate, loss, CPU and memory on the 1 GB Pi.
-3. Lateral classification at 10 m and 20 m, then 30–40 m experimentally,
-   against a surveyed reference, both carriageways and the median.
+3. Lateral classification at 10 m and 20 m, then 30–40 m experimentally, against a surveyed reference, both carriageways and the median.
 4. Association with two vehicles at similar ranges, and crossing tracks.
-5. Fail-open injection: Wi-Fi loss, MQTT disconnect, stale and duplicate
-   commands, Pi reboot, gate reboot, radar loss, UWB loss.
+5. Fail-open injection: Wi-Fi loss, MQTT disconnect, stale and duplicate commands, Pi reboot, gate reboot, radar loss, UWB loss.
 6. Latency distribution, as above.
 7. Power per rail, as above.
