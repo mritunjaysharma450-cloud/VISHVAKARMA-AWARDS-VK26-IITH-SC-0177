@@ -1,0 +1,47 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-26T21:05:20",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/2b20942c-ac1f-474c-ab7e-69152242f531",
+            "violations": []
+        },
+        {
+            "path": "/Demo outputs and override/",
+            "uuid_path": "/2b20942c-ac1f-474c-ab7e-69152242f531/2c53926d-c90a-402e-b4f5-e24b9396baa1",
+            "violations": []
+        },
+        {
+            "path": "/Lamp mode and manual selection/",
+            "uuid_path": "/2b20942c-ac1f-474c-ab7e-69152242f531/0aac8af9-35a4-47ef-a3e1-4c4033a172be",
+            "violations": []
+        }
+    ],
+    "source": "Vehicle Module Electronic Schematic.kicad_sch"
+}

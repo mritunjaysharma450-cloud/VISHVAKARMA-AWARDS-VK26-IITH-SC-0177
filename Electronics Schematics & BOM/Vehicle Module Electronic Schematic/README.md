@@ -1,0 +1,71 @@
+V-ORRA | Application VK26-IITH-SC-0177 | ITM University Gwalior
+Track: Sustainable Cities, Smart Urban Infrastructure and Asset Tracking
+KiCad 10.0.7 editable schematic. Drawing title-block date: 24 October 2026 as requested.
+This revised file set was generated and checked on 26 October 2026; file timestamps
+and test timestamps are not represented by the title-block drawing date.
+
+STATUS: engineering draft for a closed-course demo. ERC and netlist checks are
+static design checks, not measured function, simulation, fabrication or bench proof.
+MOCK means a functional interface whose physical terminal map/footprint remains
+unverified. Do not build or solder from a MOCK symbol. Exact board revisions and
+actual silkscreens must be matched before creating a wiring harness or PCB.
+
+VEHICLE MODULE ELECTRONIC SCHEMATIC
+Files: Vehicle Module Electronic Schematic.kicad_sch/.kicad_pro/.pdf/.net/.xml,
+Demo Outputs and Override.kicad_sch, Lamp Mode and Manual Selection.kicad_sch,
+VORRA.kicad_sym, sym-lib-table, ERC Final.rpt, ERC Final.json,
+Netlist Check.txt, Layout Check.txt and KiCad Test.
+
+A dedicated 12 V demo pack passes through F1 (rating OPEN) to the actuator
+rail and Pololu D24V22F5 5 V buck. The ESP32-S3 DevKitC-1 VIN takes 5 V;
+its onboard regulator provides 3.3 V to the bare MaUWB, GPS and logic ICs.
+All demo returns share GND. There is no copper connection to the actual
+vehicle horn, lamp or battery. The logic/actuator branches are not galvanically
+isolated. USB power must be disconnected when VIN is supplied.
+
+UART0 IO43/44 is reserved for programming. MaUWB 3.3 V TTL uses UART1:
+IO17 TX -> tag RX, tag TX -> IO18 RX at 115200 baud. GPS uses UART2:
+IO4 TX -> GPS RX, GPS TX -> IO5 RX at nominal 9600 baud. IO4/5 are
+non-strapping pins chosen for digital UART use; IO0/3/45/46 strapping pins,
+ADC2 analogue use during Wi-Fi, and memory IO35–37 are avoided. MaUWB
+RESET/WAKEUP is OPEN until the exact module revision is matched; GPS PPS
+is intentionally unused.
+
+IO7 is lamp-mode data and IO11 is the update strobe to SN74HC74 U5.
+The Q and complementary Q outputs drive separate HIGH and LOW demo lamps.
+TPS3839G33 U6 holds the latch clear during logic-rail start-up; the initial
+mode is LOW. No update strobe means the stored mode remains while the 3.3 V
+logic rail is alive, including an ESP-only reset. If logic power fails,
+retention is lost; neither lamp can stay on without demo actuator power.
+S2A removes the automatic MOSFET source return during override, then powers
+the common terminal of S4. S4 selects the manual HIGH or LOW return.
+
+IO8 commands the G5LE-1 DC12 relay coil through Q2. IO10 supplies edges to
+the CD74HC423 U7 retriggerable monostable only while valid commands are fresh;
+U7 Q drives series MOSFET Q4. A stuck high or low IO10 has no new edge, so
+coil current ceases after the hardware pulse expires. R8=100 k and C3=4.7 uF
+set a preliminary pulse width; the 3.3 V and tolerance extremes require
+measurement before any timeout guarantee. The HC423 variant avoids the
+HC123 reset-release trigger. D1 suppresses coil flyback.
+The relay NC contact makes the demo horn available without coil power.
+S2B cuts coil supply in override; S2C grounds the horn return around K1,
+including a welded-open contact. S2D takes OVERRIDE_N low for IO9 logging.
+S2 is one mechanically ganged, break-before-make 4PDT functional MOCK;
+its exact purchased model, physical terminal map and contact current ratings
+are OPEN. S4 manual SPDT terminal map/rating is also OPEN.
+
+KiCad 10.0.7 ERC: 0 errors, 0 warnings, 0 total violations.
+Netlist: 46 nets; 14 intentionally unused pins, enumerated by the XML and
+Netlist Check.txt. 12 V actuator, 5 V VIN, 3.3 V logic and GND are distinct.
+The 128 ideal switch/state combinations in KiCad Test cover manual lamp
+selection, horn coil cut and the override bypass. They do not model contact
+timing, relay welding probability or component tolerances.
+
+OPEN before bench or build: battery chemistry/limits and F1 value; lamp
+steady/inrush and AO3400A thermal/current margin; horn current/inrush versus
+relay and switch DC ratings; 3.3 V LDO loading during Wi-Fi peaks; GPS
+breakout LDO dropout at 3.3 V VCC; actual MOCK board terminal maps and
+footprints; CD74HC423 timeout over supply/temperature/capacitor tolerance;
+switch break-before-make and bypass injection; supply droop, reverse-polarity
+and protection; firmware validation, auth and logging. Do not claim a measured
+speed, range, accuracy or latency from this schematic.
