@@ -21,7 +21,6 @@ as folders.
 | 10 | Roadmap | — | Presented in the Stage 2 presentation | — |
 | 11 | Technical Challenges & Risks | Technical Challenges & Risks/ | Technical-Challenges-and-Risks.md, Latency-and-Power-Budgets.md, Test-Protocols.md (results blank), Theoretical-Stress-Testing-16-Scenarios.md | Theory and protocols only |
 | 12 | References & Sources | References & Sources/ | Research-Plan.md (52 papers, direct links) | Design research only |
-| 13 | Image Sources | Image Sources/ | Image-Sources.md | AI deck images, real KiCad diagrams, and real lab photos are distinguished |
 
 ## Dates
 - Schematics: made in KiCad 24 October 2026, revised 26 October 2026

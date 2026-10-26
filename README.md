@@ -80,7 +80,6 @@ face data is used anywhere in this architecture — privacy is log-based only.
 - Safety & Hazard Mitigation/
 - Technical Challenges & Risks/
 - References & Sources/
-- Image Sources/
 
 ## Contents not included in this version
 Cleaned MQTT / zone-map specification and pole design documents,
