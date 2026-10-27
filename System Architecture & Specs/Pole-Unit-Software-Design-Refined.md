@@ -1,4 +1,4 @@
-# Pole Unit Software — Refined Design (v1.1)
+# Pole Unit Software 
 
 This document describes a design only. It has not been bench-tested. This document refines the earlier pole design and the MQTT spec v1.0. Where v1.0 and the revised pole schematic disagreed, this version follows the schematic: single vehicle command topic, Pi owns sequence, gate preserves sequence and signs, vehicle verifies. That is a paper reconciliation — gate firmware, key provisioning, ACL negative test, and fault injection are not supplied yet, and remain to be tested.
 
