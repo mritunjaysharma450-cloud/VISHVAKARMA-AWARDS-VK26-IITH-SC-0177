@@ -1,4 +1,4 @@
-# Vehicle Module Software — Refined Design (v1.1)
+# Vehicle Module Software
 
 This document describes a design only. It has not been bench-tested. Firmware for the ESP32-S3 DevKit controller in the revised vehicle schematic (SN74HC74 lamp latch, CD74HC423 horn deadman, 4PDT override S2, SPDT manual S4, relay K1). This document pairs with the Pole Unit Software Design Refined v1.1 and the MQTT spec v1.1. Gate firmware, key provisioning, and bench measurements are not supplied yet.
 
