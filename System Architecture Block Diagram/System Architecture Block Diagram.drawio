@@ -1,0 +1,696 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="V-ORRA vector architecture authoring" version="24.7.17" type="device" compressed="false">
+  <diagram id="sheet-1" name="System Architecture Block Diagram">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2250" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zone" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#20344A;strokeWidth=3;container=1;collapsible=0;recursiveResize=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="500" height="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="pole" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#20344A;strokeWidth=3;container=1;collapsible=0;recursiveResize=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="260" width="1740" height="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="vehicle" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#20344A;strokeWidth=3;container=1;collapsible=0;recursiveResize=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="260" width="1250" height="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="390" width="420" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="mapping" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F0F5FA;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="610" width="420" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="validation" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F0F5FA;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="980" width="420" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="zone_policy" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1340" width="420" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="radar" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="600" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="pole_mechanical" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="390" width="400" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="anchor" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="390" width="580" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="hub" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="740" width="430" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="pi" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#20344A;strokeWidth=3;container=1;collapsible=0;recursiveResize=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="690" width="1160" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="radar_acq" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F0F5FA;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="820" width="315" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="uwb_acq" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F0F5FA;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1535" y="820" width="315" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="store" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F0F5FA;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="820" width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="calibration" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F0F5FA;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="975" width="660" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tracking" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F0F5FA;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1130" width="660" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="geofence" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F0F5FA;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1300" width="660" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="proposal" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F0F5FA;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1490" width="660" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="logs" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F0F5FA;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="995" width="350" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="broker" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F0F5FA;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="1240" width="350" height="345" as="geometry" />
+        </mxCell>
+        <mxCell id="gate" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#305E45;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1180" width="430" height="405" as="geometry" />
+        </mxCell>
+        <mxCell id="tag" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="390" width="610" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="regulator" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3460" y="390" width="440" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="gnss" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#28323D;strokeWidth=2;dashed=1;dashPattern=9 6;" vertex="1" parent="1">
+          <mxGeometry x="3460" y="610" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="controller" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F0F5FA;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="820" width="610" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="horn" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3460" y="820" width="440" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="diagnostics" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3460" y="1090" width="440" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lamp" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3460" y="1270" width="440" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="vehicle_mechanical" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="1520" width="610" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="override" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#305E45;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3460" y="1520" width="440" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rule_94" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#CBD1D7;strokeColor=#CBD1D7;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1700" width="1660" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="station" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1780" width="305" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ac_strip" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1780" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pi_adapter" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1755" width="440" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="hub_adapter" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1840" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pi_power" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="1755" width="460" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="hub_power" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="1840" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rule_106" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#CBD1D7;strokeColor=#CBD1D7;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="1700" width="1170" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bank" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="1780" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fuse_master" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3050" y="1780" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vehicle_rails" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#F3F4F5;strokeColor=#28323D;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3470" y="1760" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rule_116" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#CBD1D7;strokeColor=#CBD1D7;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2090" width="3880" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="operator_mapping" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="admin" target="mapping">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mapping_validation" style="edgeStyle=none;rounded=0;html=0;strokeColor=#68727C;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;dashed=1;dashPattern=3 7;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="mapping" target="validation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="radar_hub" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=block;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.35833333333333334;exitY=1.0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="radar" target="hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anchor_hub" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=block;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8604651162790697;entryY=0.0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="anchor" target="hub">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2020" y="585" />
+              <mxPoint x="1020" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="deploy" style="edgeStyle=none;rounded=0;html=0;strokeColor=#68727C;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;dashed=1;dashPattern=3 7;exitX=1.0;exitY=0.45454545454545453;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="validation" target="store">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="1080" />
+              <mxPoint x="585" y="635" />
+              <mxPoint x="2095" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="host_hub" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=block;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.0;exitY=0.18085106382978725;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0;entryY=0.43636363636363634;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="pi" target="hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="acq1_cal" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.4984126984126984;exitY=1.0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="radar_acq" target="calibration">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1347" y="945" />
+              <mxPoint x="1520" y="945" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="acq2_cal" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.4984126984126984;exitY=1.0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="uwb_acq" target="calibration">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1692" y="945" />
+              <mxPoint x="1520" y="945" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cal_track" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="calibration" target="tracking">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="track_zone" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="tracking" target="geofence">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="store_zone" style="edgeStyle=none;rounded=0;html=0;strokeColor=#68727C;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;dashed=1;dashPattern=3 7;exitX=0.0;exitY=0.4583333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0;entryY=0.48148148148148145;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="store" target="geofence">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1885" y="875" />
+              <mxPoint x="1885" y="1365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zone_proposal" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="geofence" target="proposal">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tracking_logs" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=1.0;exitY=0.2608695652173913;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0;entryY=0.5882352941176471;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="tracking" target="logs">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1870" y="1160" />
+              <mxPoint x="1870" y="1095" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="broker_logs" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=0.0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1.0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="broker" target="logs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hub_gate" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=block;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="hub" target="gate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="logical_proposal_gate" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.0;exitY=0.5052631578947369;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0;entryY=0.7160493827160493;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="proposal" target="gate">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="1538" />
+              <mxPoint x="1120" y="1470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gate_broker" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=block;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;dashed=1;dashPattern=12 8;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1.0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="gate" target="broker">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="865" y="1660" />
+              <mxPoint x="2095" y="1660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uwb_rf" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=block;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;dashed=1;dashPattern=12 8;exitX=1.0;exitY=0.48484848484848486;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0;entryY=0.48484848484848486;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="anchor" target="tag">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="reg_tag" style="edgeStyle=none;rounded=0;html=0;strokeColor=#863B3B;strokeWidth=3;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.0;exitY=0.48484848484848486;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0;entryY=0.48484848484848486;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="regulator" target="tag">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tag_uart" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=block;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="tag" target="controller">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gnss_context" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0;entryY=0.0859375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="gnss" target="controller">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3400" y="680" />
+              <mxPoint x="3400" y="875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqtt_command" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;dashed=1;dashPattern=12 8;exitX=1.0;exitY=0.2608695652173913;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0;entryY=0.796875;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="broker" target="controller">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mqtt_ack" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;dashed=1;dashPattern=12 8;exitX=0.0;exitY=0.9375;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0;entryY=0.5217391304347826;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="controller" target="broker">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="horn_control" style="edgeStyle=none;rounded=0;html=0;strokeColor=#305E45;strokeWidth=3.2;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=1.0;exitY=0.203125;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0;entryY=0.5777777777777777;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="controller" target="horn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="diag_control" style="edgeStyle=none;rounded=0;html=0;strokeColor=#305E45;strokeWidth=3.2;endArrow=block;endFill=1;endSize=12;startArrow=block;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=1.0;exitY=0.5234375;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="controller" target="diagnostics">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lamp_mode_strobe_control" style="edgeStyle=none;rounded=0;html=0;strokeColor=#305E45;strokeWidth=3.2;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=1.0;exitY=0.859375;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0;entryY=0.5263157894736842;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="controller" target="lamp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="override_sense" style="edgeStyle=none;rounded=0;html=0;strokeColor=#305E45;strokeWidth=3.2;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0;entryY=0.9765625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="override" target="controller">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3370" y="1585" />
+              <mxPoint x="3370" y="1445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="station_strip" style="edgeStyle=none;rounded=0;html=0;strokeColor=#863B3B;strokeWidth=3;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="station" target="ac_strip">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="strip_pi" style="edgeStyle=none;rounded=0;html=0;strokeColor=#863B3B;strokeWidth=3;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=1.0;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0;entryY=0.49230769230769234;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="ac_strip" target="pi_adapter">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1305" y="1810" />
+              <mxPoint x="1305" y="1787" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="strip_hub" style="edgeStyle=none;rounded=0;html=0;strokeColor=#863B3B;strokeWidth=3;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=1.0;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="ac_strip" target="hub_adapter">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1305" y="1850" />
+              <mxPoint x="1305" y="1865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adapter_pi" style="edgeStyle=none;rounded=0;html=0;strokeColor=#863B3B;strokeWidth=3;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=1.0;exitY=0.49230769230769234;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0;entryY=0.49230769230769234;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="pi_adapter" target="pi_power">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adapter_hub" style="edgeStyle=none;rounded=0;html=0;strokeColor=#863B3B;strokeWidth=3;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="hub_adapter" target="hub_power">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bank_fuse" style="edgeStyle=none;rounded=0;html=0;strokeColor=#863B3B;strokeWidth=3;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="bank" target="fuse_master">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuse_rail" style="edgeStyle=none;rounded=0;html=0;strokeColor=#863B3B;strokeWidth=3;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0;entryY=0.5384615384615384;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" value="" source="fuse_master" target="vehicle_rails">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_118" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60.0" y="2170" as="sourcePoint" />
+            <mxPoint x="145.0" y="2170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_120" style="edgeStyle=none;rounded=0;html=0;strokeColor=#254E75;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;dashed=1;dashPattern=12 8;" edge="1" parent="1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="836.0" y="2170" as="sourcePoint" />
+            <mxPoint x="921.0" y="2170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_122" style="edgeStyle=none;rounded=0;html=0;strokeColor=#863B3B;strokeWidth=3;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1612.0" y="2170" as="sourcePoint" />
+            <mxPoint x="1697.0" y="2170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_124" style="edgeStyle=none;rounded=0;html=0;strokeColor=#68727C;strokeWidth=2.6;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;dashed=1;dashPattern=3 7;" edge="1" parent="1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2388.0" y="2170" as="sourcePoint" />
+            <mxPoint x="2473.0" y="2170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_126" style="edgeStyle=none;rounded=0;html=0;strokeColor=#305E45;strokeWidth=3.2;endArrow=block;endFill=1;endSize=12;startArrow=none;startFill=1;startSize=12;jumpStyle=arc;jumpSize=8;" edge="1" parent="1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3164.0" y="2170" as="sourcePoint" />
+            <mxPoint x="3249.0" y="2170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="text_1" value="System Architecture Block Diagram" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=48;fontColor=#20344A;fontStyle=1;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="60" y="45" width="3880" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="text_2" value="Digital Zone Mapping | Roadside Radar-UWB Sensing | Connected Vehicle Control" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=26;fontColor=#68727C;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="60" y="125" width="3880" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="text_3" value="V-ORRA | Intelligent Vehicle Signalling &amp; Connected Road Safety System | VK26-IITH-SC-0177 | Vishwakarma Awards 2026-27" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=25.0;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="60" y="184" width="3880" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="text_4" value="ITM University Gwalior | 27 October 2026 preparation" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23.0;fontColor=#68727C;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="2830" y="184" width="1110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="text_5" value="ZONE MAPPING SOFTWARE" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=26;fontColor=#20344A;fontStyle=1;lineHeight=1.22;" vertex="1" parent="zone" connectable="0">
+          <mxGeometry x="22" y="17" width="456" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="text_6" value="F  Zone configuration and authorized deployment" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=20.8;fontColor=#68727C;fontStyle=0;lineHeight=1.22;" vertex="1" parent="zone" connectable="0">
+          <mxGeometry x="22" y="68" width="456" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="text_7" value="ROADSIDE POLE UNIT" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=29;fontColor=#20344A;fontStyle=1;lineHeight=1.22;" vertex="1" parent="pole" connectable="0">
+          <mxGeometry x="22" y="17" width="1696" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="text_8" value="E  Electronic controllers  |  F  Firmware / logic  |  M  Mounting  |  A  Power" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#68727C;fontStyle=0;lineHeight=1.22;" vertex="1" parent="pole" connectable="0">
+          <mxGeometry x="22" y="68" width="1696" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="text_9" value="SMART VEHICLE UNIT" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=29;fontColor=#20344A;fontStyle=1;lineHeight=1.22;" vertex="1" parent="vehicle" connectable="0">
+          <mxGeometry x="22" y="17" width="1206" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="text_10" value="E  Controllers  |  F  Local validation  |  M  Enclosure  |  A  Auxiliary actuation" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#68727C;fontStyle=0;lineHeight=1.22;" vertex="1" parent="vehicle" connectable="0">
+          <mxGeometry x="22" y="68" width="1206" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="text_11" value="1  Administrator / Traffic Authority" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23.4;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="admin" connectable="0">
+          <mxGeometry x="18" y="15" width="384" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_12" value="Authorized system operator" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="admin" connectable="0">
+          <mxGeometry x="18" y="53.5" width="384" height="61.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_13" value="Zone Mapping Application" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=25;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="mapping" connectable="0">
+          <mxGeometry x="18" y="15" width="384" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_14" value="Surveyed road / carriageway geometry&#10;NHZ and LBZ polygons; zone IDs&#10;Activation policies and coordinates" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22.2;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="mapping" connectable="0">
+          <mxGeometry x="18" y="53.5" width="384" height="196.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_15" value="Configuration Validation&#10;&amp; Versioning" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=25;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="validation" connectable="0">
+          <mxGeometry x="18" y="15" width="384" height="61.0" as="geometry" />
+        </mxCell>
+        <mxCell id="text_16" value="Boundary and policy checks&#10;Integrity; version control&#10;Authorized deployment" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="validation" connectable="0">
+          <mxGeometry x="18" y="84.0" width="384" height="126.0" as="geometry" />
+        </mxCell>
+        <mxCell id="text_17" value="Define zones" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="325" y="548" width="190" height="31.62" as="geometry" />
+        </mxCell>
+        <mxCell id="text_18" value="Validate / approve" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#68727C;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="325" y="902" width="190" height="31.62" as="geometry" />
+        </mxCell>
+        <mxCell id="text_19" value="Configuration boundary" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=25;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="zone_policy" connectable="0">
+          <mxGeometry x="18" y="15" width="384" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_20" value="Spatial zones and operating policies&#10;are deployed to the pole.&#10;&#10;Transfer method remains open.&#10;Geofence decisions execute on Pi." style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="zone_policy" connectable="0">
+          <mxGeometry x="18" y="53.5" width="384" height="206.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_21" value="Sustainable Cities&#10;Smart Urban Infrastructure&#10;&amp; Asset Tracking" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#68727C;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="100" y="1710" width="420" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="text_22" value="2  Texas Instruments AWRL6432BOOST" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=25;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="radar" connectable="0">
+          <mxGeometry x="18" y="15" width="564" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_23" value="60 GHz FMCW Radar | 57-64 GHz family&#10;Range | Angle | Doppler | Detections&#10;Nominal azimuth FoV ~120 deg; configuration dependent" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="radar" connectable="0">
+          <mxGeometry x="18" y="53.5" width="564" height="101.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_24" value="M  Mechanical Structure&#10;&amp; Mounting" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22.9;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="pole_mechanical" connectable="0">
+          <mxGeometry x="18" y="15" width="364" height="56.12" as="geometry" />
+        </mxCell>
+        <mxCell id="text_25" value="~2 m circular pole; top enclosure&#10;Adjustable radar / UWB brackets&#10;Weighted base; cable routing / support" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="pole_mechanical" connectable="0">
+          <mxGeometry x="18" y="79.12" width="364" height="75.88" as="geometry" />
+        </mxCell>
+        <mxCell id="text_26" value="3  Makerfabs MAUWBS3CA1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=26;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="anchor" connectable="0">
+          <mxGeometry x="18" y="15" width="544" height="31.72" as="geometry" />
+        </mxCell>
+        <mxCell id="text_27" value="UWB Anchor - STM32 / DW3000&#10;Tag ID | UWB Range | Timestamp&#10;Single anchor: distance constraint only" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="anchor" connectable="0">
+          <mxGeometry x="18" y="54.72000000000003" width="544" height="100.28" as="geometry" />
+        </mxCell>
+        <mxCell id="text_28" value="Powered USB Hub" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=25.0;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="hub" connectable="0">
+          <mxGeometry x="18" y="15" width="394" height="61.0" as="geometry" />
+        </mxCell>
+        <mxCell id="text_29" value="4-port USB 3.0 | USB-A upstream&#10;P1 Radar J5 | P2 Anchor USB-UART&#10;P3 Safety gate USB serial&#10;P4 Reserved | Separate 5 V AUX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="hub" connectable="0">
+          <mxGeometry x="18" y="84.0" width="394" height="181.0" as="geometry" />
+        </mxCell>
+        <mxCell id="text_30" value="USB 2.0 / XDS110&#10;Data + Power" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="650" y="654" width="200" height="54.8" as="geometry" />
+        </mxCell>
+        <mxCell id="text_31" value="USB Serial / UWB Range Reports - hub P2" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="1210" y="558" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="text_32" value="Raspberry Pi 5 - Edge Processing Unit" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=26;fontColor=#20344A;fontStyle=1;lineHeight=1.22;" vertex="1" parent="pi" connectable="0">
+          <mxGeometry x="22" y="17" width="1116" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="text_33" value="Model B, 1 GB  |  Local processing and communications" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#68727C;fontStyle=0;lineHeight=1.22;" vertex="1" parent="pi" connectable="0">
+          <mxGeometry x="22" y="68" width="1116" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="text_34" value="P1  Radar Acquisition" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21.8;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="radar_acq" connectable="0">
+          <mxGeometry x="18" y="15" width="279" height="26.84" as="geometry" />
+        </mxCell>
+        <mxCell id="text_35" value="Firmware-defined detections" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="radar_acq" connectable="0">
+          <mxGeometry x="18" y="49.84000000000003" width="279" height="35.16" as="geometry" />
+        </mxCell>
+        <mxCell id="text_36" value="P2  UWB Acquisition" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21.8;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="uwb_acq" connectable="0">
+          <mxGeometry x="18" y="15" width="279" height="26.84" as="geometry" />
+        </mxCell>
+        <mxCell id="text_37" value="Tag range / time / validity" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="uwb_acq" connectable="0">
+          <mxGeometry x="18" y="49.84000000000003" width="279" height="35.16" as="geometry" />
+        </mxCell>
+        <mxCell id="text_38" value="Zone Configuration Store" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21.8;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="store" connectable="0">
+          <mxGeometry x="18" y="15" width="314" height="26.84" as="geometry" />
+        </mxCell>
+        <mxCell id="text_39" value="Approved geometry / policies&#10;Version and integrity metadata" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="store" connectable="0">
+          <mxGeometry x="18" y="49.84000000000003" width="314" height="60.16" as="geometry" />
+        </mxCell>
+        <mxCell id="text_40" value="Authorized Zone Configuration Deployment" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#68727C;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="1170" y="600" width="670" height="34.06" as="geometry" />
+        </mxCell>
+        <mxCell id="text_41" value="USB-A&#10;Host" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="1085" y="925" width="65" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="text_42" value="P3  Sensor Calibration &amp; Time Association" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=25;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="calibration" connectable="0">
+          <mxGeometry x="18" y="15" width="624" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_43" value="Coordinate transforms; mounting offsets; valid / aligned observations" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=20.4;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="calibration" connectable="0">
+          <mxGeometry x="18" y="53.5" width="624" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_44" value="4  Vehicle Tracking &amp; Sensor Association" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=25;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="tracking" connectable="0">
+          <mxGeometry x="18" y="15" width="624" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_45" value="P4 | Multi-frame tracks; radar position vs UWB range&#10;Track-to-tag matching; motion consistency; ambiguity checks" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="tracking" connectable="0">
+          <mxGeometry x="18" y="53.5" width="624" height="51.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_46" value="Associated observations" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="1545" y="1085" width="295" height="29.18" as="geometry" />
+        </mxCell>
+        <mxCell id="text_47" value="5  Confidence-Aware Geofence Decision" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=25;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="geofence" connectable="0">
+          <mxGeometry x="18" y="15" width="624" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_48" value="P5 | NHZ / LBZ boundary + track position + uncertainty&#10;CONFIRMED_INSIDE_NHZ / _LBZ | CONFIRMED_OUTSIDE&#10;UNKNOWN or ambiguity: no new restrictive command" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=19.4;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="geofence" connectable="0">
+          <mxGeometry x="18" y="53.5" width="624" height="71.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_49" value="Track / identity / confidence" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="1540" y="1254" width="310" height="29.18" as="geometry" />
+        </mxCell>
+        <mxCell id="text_50" value="P6  Vehicle-Specific Command Proposal" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=25;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="proposal" connectable="0">
+          <mxGeometry x="18" y="15" width="624" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_51" value="Provisional state only; USB host / hub P3 to safety gate" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="proposal" connectable="0">
+          <mxGeometry x="18" y="53.5" width="624" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_52" value="Proposed state" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="1545" y="1444" width="280" height="29.18" as="geometry" />
+        </mxCell>
+        <mxCell id="text_53" value="10  Logging &amp; Diagnostics" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21.8;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="logs" connectable="0">
+          <mxGeometry x="18" y="15" width="314" height="26.84" as="geometry" />
+        </mxCell>
+        <mxCell id="text_54" value="P8 | Observations; association&#10;Zone / proposal / gate events&#10;Applied-state ACK; faults&#10;Side branch; outside control path" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="logs" connectable="0">
+          <mxGeometry x="18" y="49.83999999999992" width="314" height="110.16" as="geometry" />
+        </mxCell>
+        <mxCell id="text_55" value="Events" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=17;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="1853" y="1175" width="65" height="26.74" as="geometry" />
+        </mxCell>
+        <mxCell id="text_56" value="P7  Local Network&#10;&amp; MQTT Broker" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23.9;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="broker" connectable="0">
+          <mxGeometry x="18" y="15" width="314" height="58.56" as="geometry" />
+        </mxCell>
+        <mxCell id="text_57" value="Pi-hosted 2.4 GHz Wi-Fi AP&#10;Mosquitto MQTT broker&#10;&#10;Gate + vehicle are Wi-Fi clients.&#10;All MQTT traffic uses this broker.&#10;&#10;No Pi bypass of gate approval;&#10;return ACK / faults to monitoring." style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=20.0;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="broker" connectable="0">
+          <mxGeometry x="18" y="81.55999999999995" width="314" height="253.44" as="geometry" />
+        </mxCell>
+        <mxCell id="text_58" value="ACK / faults" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="2120" y="1187" width="150" height="29.18" as="geometry" />
+        </mxCell>
+        <mxCell id="text_59" value="6 ESP32-S3&#10;Pole Safety Gate" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=25.0;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="gate" connectable="0">
+          <mxGeometry x="18" y="15" width="394" height="61.0" as="geometry" />
+        </mxCell>
+        <mxCell id="text_60" value="USB serial proposals via hub P3&#10;ARM / DENY; startup DENY&#10;Proposal / association / confidence&#10;Session / freshness / watchdog&#10;&#10;All authorization checks must pass.&#10;Else deny new restrictions.&#10;ARM/DENY input: LOW / HIGH&#10;Green gate-status LED" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22.0;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="gate" connectable="0">
+          <mxGeometry x="18" y="84.0" width="394" height="311.0" as="geometry" />
+        </mxCell>
+        <mxCell id="text_61" value="USB Serial&#10;Proposals /&#10;Diagnostics" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="655" y="1035" width="200" height="79.2" as="geometry" />
+        </mxCell>
+        <mxCell id="text_62" value="Proposal&#10;via hub P3" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=17;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="1085" y="1400" width="100" height="47.48" as="geometry" />
+        </mxCell>
+        <mxCell id="text_63" value="2.4 GHz Wi-Fi / MQTT | Authorized publication; gate status / ACK" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="1120" y="1630" width="930" height="31.62" as="geometry" />
+        </mxCell>
+        <mxCell id="text_64" value="Firmware-controlled authorization subsystem" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#305E45;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="650" y="1130" width="430" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="text_65" value="RF LINK A&#10;UWB Two-Way Ranging" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="2355" y="375" width="330" height="62.12" as="geometry" />
+        </mxCell>
+        <mxCell id="text_66" value="IEEE 802.15.4z-compatible&#10;hardware | range evidence&#10;No actuation commands" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=20;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="2355" y="500" width="330" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="text_67" value="Makerfabs bare MaUWB tag" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=26.0;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="tag" connectable="0">
+          <mxGeometry x="18" y="15" width="574" height="31.72" as="geometry" />
+        </mxCell>
+        <mxCell id="text_68" value="Bare UWB tag | regulated 3.3 V&#10;Tag UART | UWB ranging&#10;Tag identity and ranging participation" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23.0;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="tag" connectable="0">
+          <mxGeometry x="18" y="54.72000000000003" width="574" height="100.28" as="geometry" />
+        </mxCell>
+        <mxCell id="text_69" value="A 3.3 V Regulator for UWB Tag" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=25.0;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="regulator" connectable="0">
+          <mxGeometry x="18" y="15" width="404" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_70" value="Regulated 3.3 V supply for bare tag&#10;Local common ground&#10;Implementation per schematic" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22.0;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="regulator" connectable="0">
+          <mxGeometry x="18" y="53.5" width="404" height="101.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_71" value="3.3 V DC" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#863B3B;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="3342" y="420" width="118" height="27.96" as="geometry" />
+        </mxCell>
+        <mxCell id="text_72" value="Optional GPS / GNSS" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22.9;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="gnss" connectable="0">
+          <mxGeometry x="18" y="15" width="404" height="28.06" as="geometry" />
+        </mxCell>
+        <mxCell id="text_73" value="GPS UART, context only&#10;Never a zone authority" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=20.6;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="gnss" connectable="0">
+          <mxGeometry x="18" y="51.059999999999945" width="404" height="78.94" as="geometry" />
+        </mxCell>
+        <mxCell id="text_74" value="8  ESP32-S3 Vehicle Controller" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=26;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="controller" connectable="0">
+          <mxGeometry x="18" y="15" width="574" height="31.72" as="geometry" />
+        </mxCell>
+        <mxCell id="text_75" value="ESP32-S3&#10;&#10;Wi-Fi / MQTT Client&#10;Command Validation&#10;Vehicle / tag identity and session&#10;Independent gate-authorization checks&#10;Authenticity / replay / expiry checks&#10;Physical override priority&#10;&#10;Vehicle State Machine&#10;Lamp HIGH/LOW mode + strobe&#10;Horn coil command + deadman pulse&#10;Tag UART | GPS UART | override sense&#10;Acknowledgements / Diagnostics&#10;Local watchdog and safe recovery" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=24.0;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="controller" connectable="0">
+          <mxGeometry x="18" y="54.72000000000003" width="574" height="575.28" as="geometry" />
+        </mxCell>
+        <mxCell id="text_76" value="Tag UART - 115200 / 8N1&#10;3.3 V logic; matching firmware&#10;Tag TX to controller RX&#10;Controller TX to tag RX&#10;Local common ground" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21.0;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="3050" y="625" width="285" height="134.1" as="geometry" />
+        </mxCell>
+        <mxCell id="text_77" value="GPS UART" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=18.0;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="3345" y="760" width="110" height="49.92" as="geometry" />
+        </mxCell>
+        <mxCell id="text_78" value="RF LINK B&#10;2.4 GHz Wi-Fi / MQTT" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23;fontColor=#254E75;fontStyle=1;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="2360" y="1160" width="325" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="text_79" value="7  Authenticated Vehicle-&#10;Specific MQTT Command" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="2330" y="1245" width="350" height="59.68" as="geometry" />
+        </mxCell>
+        <mxCell id="text_80" value="Applied-State ACK&#10;+ Fault Status" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#254E75;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="2340" y="1440" width="335" height="59.68" as="geometry" />
+        </mxCell>
+        <mxCell id="text_81" value="Wireless links only&#10;Independent demo supplies&#10;Local grounds; no cable" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21.0;fontColor=#68727C;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="2370" y="1640" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="text_82" value="9  Auxiliary Horn Control" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23.9;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="horn" connectable="0">
+          <mxGeometry x="18" y="15" width="404" height="29.28" as="geometry" />
+        </mxCell>
+        <mxCell id="text_83" value="Horn deadman timer + MOSFET driver&#10;Fresh pulses required for suppression&#10;Expiry / fault / link loss: fail-open release&#10;Normally-closed relay: horn available&#10;when coil power is lost&#10;Auxiliary demo sounder + horn button" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21.0;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="horn" connectable="0">
+          <mxGeometry x="18" y="52.27999999999997" width="404" height="162.72" as="geometry" />
+        </mxCell>
+        <mxCell id="text_84" value="Coil + pulse" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=17.0;fontColor=#305E45;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="3345" y="910" width="110" height="26.74" as="geometry" />
+        </mxCell>
+        <mxCell id="text_85" value="Status &amp; Diagnostics" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23.9;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="diagnostics" connectable="0">
+          <mxGeometry x="18" y="15" width="404" height="29.28" as="geometry" />
+        </mxCell>
+        <mxCell id="text_86" value="Status indicators | diagnostic alerts&#10;Horn-button sense | applied state / faults" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=20.0;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="diagnostics" connectable="0">
+          <mxGeometry x="18" y="52.27999999999997" width="404" height="67.72" as="geometry" />
+        </mxCell>
+        <mxCell id="text_87" value="9  Auxiliary Lighting Control" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23.9;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="lamp" connectable="0">
+          <mxGeometry x="18" y="15" width="404" height="29.28" as="geometry" />
+        </mxCell>
+        <mxCell id="text_88" value="Lamp mode latch + MOSFET driver&#10;HIGH/LOW auxiliary demo lamp&#10;Holds mode on stale / unknown data&#10;FREEZE; no automatic HIGH on&#10;uncertainty" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=20.9;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="lamp" connectable="0">
+          <mxGeometry x="18" y="52.27999999999997" width="404" height="127.72" as="geometry" />
+        </mxCell>
+        <mxCell id="text_89" value="Mode/strobe" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=19.0;fontColor=#305E45;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="3345" y="1335" width="110" height="29.18" as="geometry" />
+        </mxCell>
+        <mxCell id="text_90" value="M  Mechanical Structure &amp; Mounting" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=25;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="vehicle_mechanical" connectable="0">
+          <mxGeometry x="18" y="15" width="574" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_91" value="Compact electronics enclosure with mounting provision&#10;Secure controller / tag / demo outputs and local cable routing" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21.2;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="vehicle_mechanical" connectable="0">
+          <mxGeometry x="18" y="53.5" width="574" height="66.5" as="geometry" />
+        </mxCell>
+        <mxCell id="text_92" value="A Physical Override" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23.9;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="override" connectable="0">
+          <mxGeometry x="18" y="15" width="404" height="29.28" as="geometry" />
+        </mxCell>
+        <mxCell id="text_93" value="Rail cut + relay bypass; wins if firmware hangs&#10;Manual HIGH/LOW selection; override sense" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=19.5;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="override" connectable="0">
+          <mxGeometry x="18" y="52.27999999999997" width="404" height="67.72" as="geometry" />
+        </mxCell>
+        <mxCell id="text_95" value="A  POLE POWER - separate regulated supplies" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#20344A;fontStyle=1;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="650" y="1713" width="1660" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="text_96" value="100 W / 156 Wh" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22.9;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="station" connectable="0">
+          <mxGeometry x="18" y="15" width="269" height="28.06" as="geometry" />
+        </mxCell>
+        <mxCell id="text_97" value="Portable Power Station" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="station" connectable="0">
+          <mxGeometry x="18" y="51.059999999999945" width="269" height="38.94" as="geometry" />
+        </mxCell>
+        <mxCell id="text_98" value="Rated AC Extension" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21.8;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="ac_strip" connectable="0">
+          <mxGeometry x="18" y="15" width="214" height="26.84" as="geometry" />
+        </mxCell>
+        <mxCell id="text_99" value="Purchased AC connections" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=17.5;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="ac_strip" connectable="0">
+          <mxGeometry x="18" y="49.83999999999992" width="214" height="40.16" as="geometry" />
+        </mxCell>
+        <mxCell id="text_100" value="AC" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=19;fontColor=#863B3B;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="958" y="1790" width="60" height="29.18" as="geometry" />
+        </mxCell>
+        <mxCell id="text_101" value="Official Raspberry Pi 27 W USB-C Supply" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=19.8;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="pi_adapter" connectable="0">
+          <mxGeometry x="18" y="15" width="404" height="24.4" as="geometry" />
+        </mxCell>
+        <mxCell id="text_102" value="Regulated Adapter" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=20.8;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="hub_adapter" connectable="0">
+          <mxGeometry x="18" y="15" width="404" height="25.62" as="geometry" />
+        </mxCell>
+        <mxCell id="text_103" value="5.1 V DC / 5 A to Pi USB-C" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21.8;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="pi_power" connectable="0">
+          <mxGeometry x="18" y="15" width="424" height="26.84" as="geometry" />
+        </mxCell>
+        <mxCell id="text_104" value="Regulated DC to Hub AUX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=19.8;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="hub_power" connectable="0">
+          <mxGeometry x="18" y="15" width="424" height="24.4" as="geometry" />
+        </mxCell>
+        <mxCell id="text_105" value="Active Cooler: official Pi fan connector" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=18;fontColor=#68727C;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="1850" y="1820" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="text_107" value="A  VEHICLE POWER - independent supply / local common GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#20344A;fontStyle=1;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="2730" y="1713" width="1170" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="text_108" value="Independent Demo" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21.4;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="bank" connectable="0">
+          <mxGeometry x="18" y="15" width="214" height="28.06" as="geometry" />
+        </mxCell>
+        <mxCell id="text_109" value="Power Supply" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=20.0;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="bank" connectable="0">
+          <mxGeometry x="18" y="51.059999999999945" width="214" height="38.94" as="geometry" />
+        </mxCell>
+        <mxCell id="text_110" value="Fuse + Master Switch" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=23.9;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="fuse_master" connectable="0">
+          <mxGeometry x="18" y="15" width="314" height="29.28" as="geometry" />
+        </mxCell>
+        <mxCell id="text_111" value="Switched demo supply" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22.0;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="fuse_master" connectable="0">
+          <mxGeometry x="18" y="52.27999999999997" width="314" height="37.72" as="geometry" />
+        </mxCell>
+        <mxCell id="text_112" value="Demo Power Distribution" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22.9;fontColor=#28323D;fontStyle=1;lineHeight=1.22;" vertex="1" parent="vehicle_rails" connectable="0">
+          <mxGeometry x="18" y="15" width="394" height="28.06" as="geometry" />
+        </mxCell>
+        <mxCell id="text_113" value="Controller | UWB regulator | optional GPS&#10;Auxiliary horn path | physical override input&#10;Override gates actuation; local ground" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=18.7;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="vehicle_rails" connectable="0">
+          <mxGeometry x="18" y="51.059999999999945" width="394" height="68.94" as="geometry" />
+        </mxCell>
+        <mxCell id="text_114" value="CONTROL PRINCIPLES  |  Ambiguous position / identity: no new restriction.  |  Expired horn authorization: release suppression." style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=27;fontColor=#20344A;fontStyle=1;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="60" y="1960" width="3880" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="text_115" value="Uncertain lighting: no automatic HIGH. | Physical override has priority. | Auxiliary demo only; closed-course only.&#10;Independent demo supplies; local grounds only; no pole-to-vehicle cable or wiring into real vehicle horn / headlamp circuits." style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=24.0;fontColor=#68727C;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="60" y="2012" width="3880" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="text_117" value="LINE CONVENTIONS  |  Arrow direction indicates sender to receiver; matching named power nets are continuous locally." style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#20344A;fontStyle=1;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="60" y="2103" width="3880" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="text_119" value="Wired / logical data" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="165.0" y="2151" width="661.0" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="text_121" value="Wireless RF" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="941.0" y="2151" width="661.0" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="text_123" value="Power / voltage" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="1717.0" y="2151" width="661.0" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="text_125" value="Configuration" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="2493.0" y="2151" width="661.0" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="text_127" value="Inhibit / output control" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=22;fontColor=#28323D;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="3269.0" y="2151" width="661.0" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="text_128" value="M Mechanical structure | A Actuation &amp; power | E Electronic controllers | F Firmware &amp; logic  |  Dashed box: optional feature" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#68727C;fontStyle=0;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="60" y="2205" width="3880" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="text_129" value="SHEET 01 / 03" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=top;whiteSpace=wrap;overflow=visible;rounded=0;spacing=0;fontFamily=Arial;fontSize=21;fontColor=#68727C;fontStyle=1;lineHeight=1.22;" vertex="1" parent="1" connectable="0">
+          <mxGeometry x="3740" y="2205" width="200" height="28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
